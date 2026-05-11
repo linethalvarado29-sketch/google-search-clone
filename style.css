@@ -1,0 +1,156 @@
+body {
+    font-family: arial, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.top-nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    gap: 20px;
+}
+
+.top-nav a {
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+    font-size: 13px;
+}
+
+.search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.google-logo {
+    width: 272px;
+    margin-bottom: 30px;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    width: 584px;
+    padding: 5px 15px;
+    transition: 0.3s;
+}
+
+.search-box:hover {
+    box-shadow: 0 1px 6px rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
+
+.search-input {
+    flex: 1;
+    border: none;
+    height: 34px;
+    font-size: 16px;
+    outline: none;
+}
+
+.button-container {
+    margin-top: 30px;
+    display: flex;
+    gap: 12px;
+}
+
+.btn {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    color: #3c4043;
+    padding: 0 16px;
+    height: 36px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn:hover {
+    border: 1px solid #dadce0;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    color: #202124;
+}
+/* Estilos para Búsqueda de Imágenes */
+.sub-label {
+    color: #4285f4;
+    font-size: 16px;
+    position: relative;
+    top: -10px;
+    left: -5px;
+}
+
+/* Estilos para Búsqueda Avanzada */
+.advanced-body {
+    display: block; /* Rompemos el flex del body principal */
+}
+
+.advanced-header {
+    padding: 15px 30px;
+    border-bottom: 1px solid #ebebeb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mini-logo { width: 92px; }
+
+.advanced-container {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.advanced-title {
+    color: #d93025;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.advanced-form {
+    margin-top: 30px;
+}
+
+.form-group {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.form-group label {
+    width: 250px;
+    font-size: 13px;
+    color: #333;
+}
+
+.form-group input {
+    width: 500px;
+    padding: 6px;
+    border: 1px solid #d9d9d9;
+    outline: none;
+}
+
+.form-group input:focus {
+    border: 1px solid #4d90fe;
+}
+
+.form-footer {
+    display: flex;
+    justify-content: flex-end;
+    width: 750px;
+}
+
+.btn-advanced {
+    background-color: #4b8cf8;
+    color: white;
+    border: 1px solid #4b8cf8;
+    padding: 8px 15px;
+    font-weight: bold;
+    border-radius: 2px;
+    cursor: pointer;
+}

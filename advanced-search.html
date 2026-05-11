@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Advanced Search Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="advanced-body">
+    <header class="advanced-header">
+        <a href="index.html">
+            <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google" class="mini-logo">
+        </a>
+        <nav class="top-nav-advanced">
+             <a href="index.html">Back to Main Search</a>
+        </nav>
+    </header>
+
+    <main class="advanced-container">
+        <h1 class="advanced-title">Advanced Search</h1>
+        <hr>
+        
+        <form action="https://google.com/search" method="GET" class="advanced-form">
+            <div class="form-group">
+                <label>all these words:</label>
+                <input type="text" name="as_q">
+            </div>
+            
+            <div class="form-group">
+                <label>this exact word or phrase:</label>
+                <input type="text" name="as_epq">
+            </div>
+            
+            <div class="form-group">
+                <label>any of these words:</label>
+                <input type="text" name="as_oq">
+            </div>
+            
+            <div class="form-group">
+                <label>none of these words:</label>
+                <input type="text" name="as_eq">
+            </div>
+            
+            <div class="form-footer">
+                <input type="submit" value="Advanced Search" class="btn-advanced">
+            </div>
+        </form>
+    </main>
+</body>
+</html>
