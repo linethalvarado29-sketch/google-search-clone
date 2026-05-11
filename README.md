@@ -1,4 +1,3 @@
-# google-search-clone
 # Google Search Clone
 
 A functional front-end replication of Google's search interface, built as part of a technical web development challenge.
